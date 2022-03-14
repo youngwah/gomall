@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/gomall.iml" filepath="$PROJECT_DIR$/.idea/gomall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gomall-coupon/gomall-coupon.iml" filepath="$PROJECT_DIR$/gomall-coupon/gomall-coupon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gomall-member/gomall-member.iml" filepath="$PROJECT_DIR$/gomall-member/gomall-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gomall-order/gomall-order.iml" filepath="$PROJECT_DIR$/gomall-order/gomall-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gomall-product/gomall-product.iml" filepath="$PROJECT_DIR$/gomall-product/gomall-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gomall-ware/gomall-ware.iml" filepath="$PROJECT_DIR$/gomall-ware/gomall-ware.iml" />
+      <module fileurl="file://$PROJECT_DIR$/renren-fast/renren-fast.iml" filepath="$PROJECT_DIR$/renren-fast/renren-fast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/renren-generator/renren-generator.iml" filepath="$PROJECT_DIR$/renren-generator/renren-generator.iml" />
+    </modules>
+  </component>
+</project>
