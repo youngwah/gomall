@@ -12,4 +12,6 @@ public class GomallWareApplication {
         SpringApplication.run(GomallWareApplication.class, args);
     }
 
+
+
 }
