@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/gomall.iml" filepath="$PROJECT_DIR$/.idea/gomall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gomall-common/gomall-common.iml" filepath="$PROJECT_DIR$/gomall-common/gomall-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/gomall-coupon/gomall-coupon.iml" filepath="$PROJECT_DIR$/gomall-coupon/gomall-coupon.iml" />
       <module fileurl="file://$PROJECT_DIR$/gomall-member/gomall-member.iml" filepath="$PROJECT_DIR$/gomall-member/gomall-member.iml" />
       <module fileurl="file://$PROJECT_DIR$/gomall-order/gomall-order.iml" filepath="$PROJECT_DIR$/gomall-order/gomall-order.iml" />
