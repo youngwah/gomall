@@ -5,7 +5,13 @@ spring:
     url: jdbc:mysql://192.168.179.129:3306/gomall_ums?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     username: root
     password: root
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: gomall-member
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.17.1:8848
 
 mybatis-plus:
   mapper-locations: calsspath:/mapper/**/*.xml
