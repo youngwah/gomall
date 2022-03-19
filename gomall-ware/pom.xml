@@ -18,6 +18,11 @@
         <spring-cloud.version>2021.0.1</spring-cloud.version>
     </properties>
     <dependencies>
+        <!-- 解决bootstrap.yml不生效 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bootstrap</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.real.gomall</groupId>
             <artifactId>gomall-common</artifactId>

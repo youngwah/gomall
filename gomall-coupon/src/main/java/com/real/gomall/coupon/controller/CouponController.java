@@ -5,6 +5,8 @@ import java.util.Map;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -26,10 +28,22 @@ import com.real.common.utils.R;
  * @date 2022-03-17 21:25:28
  */
 @RestController
+@RefreshScope
 @RequestMapping("coupon/coupon")
 public class CouponController {
     @Autowired
     private CouponService couponService;
+
+    @Value("${coupon.user.name}")
+    private String name;
+
+    @Value("${coupon.user.age}")
+    private String age;
+
+    @RequestMapping("/nacos/config")
+    public R testNacosConfig() {
+        return R.ok().put("name", name).put("age",age);
+    }
 
     // 查询会员的优惠券
     @RequestMapping("/member/list")

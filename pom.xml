@@ -19,6 +19,7 @@
         <module>renren-fast</module>
         <module>renren-generator</module>
         <module>gomall-common</module>
+        <module>gomall-gateway</module>
     </modules>
     <build>
         <plugins>

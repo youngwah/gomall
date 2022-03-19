@@ -4,12 +4,7 @@ spring:
     password: root
     url: jdbc:mysql://192.168.179.129:3306/gomall_sms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 192.168.17.1:8848
-  application:
-    name: gomall-coupon
+
 
 mybatis-plus:
   mapper-locations: classpath:/mapper/**/*.xml
@@ -19,3 +14,8 @@ mybatis-plus:
 
 server:
   port: 7000
+
+coupon:
+  user:
+    name: gogo
+    age: 18

@@ -16,6 +16,7 @@ import com.real.gomall.product.service.BrandService;
 import com.real.common.utils.PageUtils;
 import com.real.common.utils.R;
 
+import javax.annotation.RegEx;
 
 
 /**
@@ -30,6 +31,11 @@ import com.real.common.utils.R;
 public class BrandController {
     @Autowired
     private BrandService brandService;
+
+    @RequestMapping("/test")
+    public R test() {
+        return R.ok().put("name","success");
+    }
 
     /**
      * 列表

@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.real.gomall</groupId>
-    <artifactId>gomall-member</artifactId>
+    <artifactId>gomall-gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>gomall-member</name>
-    <description>Go mall member</description>
+    <name>gomall-gateway</name>
+    <description>gomall gateway</description>
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>2021.0.1</spring-cloud.version>
@@ -24,12 +24,8 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
+            <artifactId>spring-cloud-starter-gateway</artifactId>
         </dependency>
         <!-- 解决bootstrap.yml不生效 -->
         <dependency>

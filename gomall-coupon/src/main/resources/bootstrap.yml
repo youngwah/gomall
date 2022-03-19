@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: gomall-coupon
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.17.1:8848
+        file-extension: properties
+      discovery:
+        server-addr: 192.168.17.1:8848
