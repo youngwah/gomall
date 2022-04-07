@@ -20,6 +20,7 @@
         <module>renren-generator</module>
         <module>gomall-common</module>
         <module>gomall-gateway</module>
+        <module>gomall-search</module>
     </modules>
     <build>
         <plugins>

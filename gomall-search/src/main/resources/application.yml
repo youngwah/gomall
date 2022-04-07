@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: gomall-search
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.17.1:8848
